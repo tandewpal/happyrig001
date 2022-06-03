@@ -2,7 +2,6 @@
 clear
 sudo apt install screen
 screen -R xmr
-
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz
 tar -xvzf lolMiner_v1.51a_Lin64.tar.gz
 cd 1.51a/
