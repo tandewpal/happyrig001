@@ -1,7 +1,4 @@
 #! /bin/bash
-lscpu
-nvidia-smi
-sudo apt update
 clear
 sudo apt install screen
 screen -R xmr
