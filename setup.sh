@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 clear
 sudo apt install screen
 screen -R xmr
