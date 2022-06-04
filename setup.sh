@@ -2,7 +2,7 @@
 clear
 sudo apt install screen
 screen -R xmr
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz
-tar -xvzf lolMiner_v1.51a_Lin64.tar.gz
-cd 1.51a/
-./lolMiner --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:1800 --user 0xca3938760d3ff3370ca4bd5ba5f9e727dbb198e8.theofirstmine.colab001 pause
+wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz
+tar -xf xmrig-6.17.0
+cd xmrig-6.17.0/
+./xmrig --coin=XMR -o xmr.2miners.com:2222 -u 83bGWn25vGMB8PMKgPEpTzHvktfx39rG8KfhJjuKBmEH1iucJfXHTjUdsnqq5mmBuCNxTpjULARYa6GUHV1g29oYJ386xa8.mine005 -p x
